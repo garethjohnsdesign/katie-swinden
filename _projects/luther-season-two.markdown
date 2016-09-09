@@ -18,6 +18,8 @@ video: 61619539
 layout: project
 is-in-production: 
 is-featured: 'true'
+is-carousel: 'true'
+carousel-text: Luther
 ---
 
 LUTHER is a dark psychological crime drama in which John Luther (Idris Elba), is a man struggling with his own terrible demons, might just be as dangerous as the depraved murderers he hunts. In this second season, John Luther, devastated by the brutal murder of his wife returns to policing in a different world and psychopaths on a bigger scale.

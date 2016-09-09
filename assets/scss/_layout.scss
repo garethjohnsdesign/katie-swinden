@@ -64,6 +64,10 @@ a {
 	@include underline-from-left;
 }
 
+.content {
+	position: relative;
+}
+
 
 // Header
 
@@ -72,13 +76,33 @@ a {
 	font-size: 1.5rem;
 	padding-top: 1rem;
 	@include breakpoint(large) {
-   padding: 2rem;
+	padding: 2rem;
   	}
 }
 
-.current a {
-  color: $color--dark-gray;
+.navigation-white {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 110;
+	a {
+    color: $color--white;
+    }
+    a:hover {
+    color: $color--light-gray;
+    }
 }
+
+.navigation-black {
+	position: relative;
+	a {
+    color: $color--black;
+    }
+    a:hover {
+    color: $color--light-gray;
+    }
+}
+
 
 // 404
 
@@ -242,3 +266,57 @@ footer .detail {
     color: $color--dark-gray;
     }
 }
+
+//Carousel
+
+
+.carousel__text {
+	height: 100%;
+}
+
+
+.carousel__text h1 a {
+	color: $color--white;
+	&:hover {
+      color: $color--dark-gray;
+    }
+}
+
+.carousel__button {
+ 	line-height: $line-height--tight;
+ 	background-color: $color--black;
+ 	color: $color--white;
+	padding: 1rem 1.5rem;
+	margin-top: 1rem;
+	&:hover {
+      background-color: $color--white;
+      color: $color--black;
+    }
+}
+
+.carousel__image img {
+ 	z-index: -1;
+ 	position: absolute; 
+ 	left: 0px; 
+ 	bottom:0px; 
+ 	width: 100%;
+ 	height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+ 	opacity: 0.9;
+}
+
+.gallery {
+  height: 100vh; 
+}
+
+.gallery-cell {
+  width: 100%;
+  height: 100%;
+  /* inherit height from gallery */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  z-index: 1; }
+  
+// Testing

@@ -17,6 +17,8 @@ video: 179625241
 layout: project
 is-in-production: 
 is-featured: 'true'
+is-carousel: 'true'
+carousel-text: Marvellous
 ---
 
 Part biopic, part musical, part fantasy, this is the inspirational and incredible true story of Neil Baldwin, a man who refused to accept the label of learning difficulties, and who has led an extraordinary life. Written by Peter Bowker and directed by Julian Farino
