@@ -2,7 +2,7 @@
 title: Marvellous
 date: 2014-09-25 00:00:00 Z
 medium: television
-img: "/uploads/marvellous.jpg"
+image: "/uploads/marvellous.jpg"
 span: September 2013 - July 2014
 company: Fifty Fathoms Productions and Tiger Aspect for BBC 2
 runtime: TV Movie

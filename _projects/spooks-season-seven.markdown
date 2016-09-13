@@ -2,7 +2,7 @@
 title: Spooks Season Seven
 date: 2008-10-27 00:00:00 Z
 medium: television
-img: "/uploads/spooks-season-seven.jpg"
+image: "/uploads/spooks-season-seven.jpg"
 span: Dec 2007 – Nov 2008
 company: Kudos Film & Television
 runtime: 8 x 60 min. episodes

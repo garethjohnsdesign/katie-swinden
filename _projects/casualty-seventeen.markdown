@@ -2,7 +2,7 @@
 title: Casualty Season Seventeen
 date: 2002-09-14 00:00:00 Z
 medium: television
-img: 
+image: 
 span: Oct 2002 – Apr 2003
 company: BBC Drama Series
 runtime: 10 x 50 min. episodes

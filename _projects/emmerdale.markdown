@@ -2,7 +2,7 @@
 title: Emmerdale
 date: 2001-06-01 00:00:00 Z
 medium: television
-img: 
+image: 
 span: Jun 2001 - Oct 2002
 company: Yorkshire Television
 runtime: 200 x 30 min. episodes

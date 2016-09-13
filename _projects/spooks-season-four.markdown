@@ -2,7 +2,7 @@
 title: Spooks Season Four
 date: 2005-09-12 00:00:00 Z
 medium: television
-img: "/uploads/spooks-season-four.jpg"
+image: "/uploads/spooks-season-four.jpg"
 span: July 2004 – July 2005
 company: Kudos Film & Television
 runtime: 10 x 60 min. episodes

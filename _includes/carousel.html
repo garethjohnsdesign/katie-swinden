@@ -2,7 +2,7 @@
 <div class="animated fadeIn gallery">
 {% assign slide_documents = site.projects | sort: 'date' | reverse | where: "is-featured", "true" %}
 {% for slide in slide_documents %}
-<div class="gallery-cell" style="background-image: url({{slide.img}})">
+<div class="gallery-cell" style="background-image: url({{slide.image}})">
 	
 <div class="row carousel__text align-middle align-center">
 	<div class="shrink columns">

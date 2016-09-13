@@ -2,7 +2,7 @@
 title: Spooks Season Six
 date: 2007-10-16 00:00:00 Z
 medium: television
-img: "/uploads/spooks-season-six.jpg"
+image: "/uploads/spooks-season-six.jpg"
 span: Oct 2006 – Nov 2007
 company: Kudos Film & Television
 runtime: 10 x 60 min. episodes

@@ -17,6 +17,29 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: project
+    medium:
+    image:
+    span:
+    company:
+    runtime:
+    awards:
+    writer:
+    director:
+    with:
+    producers:
+    role:
+    imdb:
+    video:
+    layout:
+    is-in-production:
+    is-featured:
+    is-carousel:
+    carousel-text:
 url: http://katieswinden.com
 permalink: pretty
 gems:

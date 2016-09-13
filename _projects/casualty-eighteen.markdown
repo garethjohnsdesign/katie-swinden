@@ -2,7 +2,7 @@
 title: Casualty Season Eighteen
 date: 2003-09-13 00:00:00 Z
 medium: television
-img: 
+image: 
 span: Apr 2003– Jun 2004
 company: BBC Drama Series
 runtime: 20 x 50 min. episodes

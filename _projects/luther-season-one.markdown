@@ -2,7 +2,7 @@
 title: Luther Season One
 date: 2010-05-04 00:00:00 Z
 medium: television
-img: "/uploads/luther-season-one.jpg"
+image: "/uploads/luther-season-one.jpg"
 span: July 2009 - April 2010
 company: BBC Drama Series and Serials
 runtime: 6 x 60 min. episodes

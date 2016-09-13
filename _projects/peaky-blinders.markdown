@@ -2,7 +2,7 @@
 title: Peaky Blinders Season One
 date: 2013-09-12 00:00:00 Z
 medium: television
-img: "/uploads/peaky-blinders.jpg"
+image: "/uploads/peaky-blinders.jpg"
 span: April 2012 – April 2013
 company: Mandabach Productions / Tiger Aspect for BBC2
 runtime: 6 x 60 min. episodes
