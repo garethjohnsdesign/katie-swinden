@@ -8,23 +8,33 @@
 <!-- End Image -->
 
 <!-- Title -->
+{% if project.title %}
 <h2 class="excerpt__title underline-black"><a href="{{ project.url }}">{{ project.title }}</a></h2>
+{% endif %}
 <!-- End Title -->
 
 <!-- Span -->
-<p class="excerpt__director"><a href="{{ project.url }}">{{ project.span }}</a></p>
+{% if project.span %}
+<p class="excerpt__with"><a href="{{ project.url }}">{{ project.span }}</a></p>
+{% endif %}
 <!-- End Span -->
 
 <!-- Company -->
+{% if project.company %}
 <p class="excerpt__with"><a href="{{ project.url }}">{{ project.company }}</a></p>
+{% endif %}
 <!-- End Company -->
 
 <!-- Runtime -->
-<p class="excerpt__with"><a href="{{ project.url }}">{{ project.runtime }}</a></p>
+{% if project.runtime %}
+<p class="excerpt__with show-for-medium"><a href="{{ project.url }}">{{ project.runtime }}</a></p>
+{% endif %}
 <!-- End Runtime -->
 
 <!-- Awards -->
-<p class="excerpt__with"><a href="{{ project.url }}">{{ project.awards }}</a></p>
+{% if project.awards %}
+<p class="excerpt__with show-for-medium"><a href="{{ project.url }}">{{ project.awards }}</a></p>
+{% endif %}
 <!-- End Awards -->
 
 </article>

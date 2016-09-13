@@ -6,7 +6,7 @@ img: "/uploads/luther-season-two.jpg"
 span: July 2010 – May 2011
 company: BBC Drama Series and Serials
 runtime: 2 x 120 min. episodes
-awards: Golden Globe winner and Emmy nominated for Best Series, Best Actor, Best Director,
+awards: Golden Globe Winner and Emmy nominated for Best Series, Best Actor, Best Director, Best writer. Won RTS Drama Series
   Best writer. Won RTS Drama Series
 writer: Neil Cross
 director: Sam Miller

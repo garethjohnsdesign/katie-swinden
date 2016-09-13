@@ -6,7 +6,7 @@ img: "/uploads/marvellous.jpg"
 span: September 2013 - July 2014
 company: Fifty Fathoms Productions and Tiger Aspect for BBC 2
 runtime: TV Movie
-awards: BAFTA Best Single Drama, Best Supporting Actress, Best Leading Actor
+awards: Triple Bafta Winner, Best Single, Best Writer, Best Director, Double RTS Winner
 writer: Peter Bowker
 director: Julian Farino
 with: Toby Jones, Gemma Jones, Tony Curran, Nicholas Gleaves, Greg McHugh

@@ -1,19 +1,46 @@
-<div class="row align-center">
+{% assign  document = site.projects | sort: "date" | reversed | where:"is-featured", true %}
 
-<div class="column small-5">
-<a href="{{ current.previous.url }}" style="visibility: {% if current.previous %}visible{% else %}hidden{% endif %}">&larr; Previous</a>
+
+{% for links in document %}
+    {% if links.title == page.title %}
+
+        {% unless forloop.first %}
+            {% assign prevurl = prev.url %}
+
+            {% assign prevtitle = prev.title %}
+        {% endunless %}
+
+        {% unless forloop.last %}
+            {% assign next = document[forloop.index] %}
+
+            {% assign nexturl = next.url %}
+
+            {% assign nexttitle = next.title %}
+        {% endunless %}
+    {% endif %}
+
+    {% assign prev = links %}
+{% endfor %}
+
+{% if prevurl or nexturl %}
+<div class="project__pagination">
+	<div class="row">
+        
+        <div class="small-6 columns">
+	    {% if prevurl %} 
+		<p><a class="prev" href="{{prevurl}}"><svg class="icon icon-arrow-left8"><use xlink:href="#icon-arrow-left8"></use></svg> Previous</a></p>
+		<p class="hide-for-small-only"><a class="dark-gray prev" href="{{prevurl}}">{{prevtitle}}</a></p>
+		{% endif %}
+		</div>
+                         
+        
+        <div class="small-6 columns text-right">
+	    {% if nexturl %}
+		<p><a class="next text-right" href="{{nexturl}}">Next <svg class="icon icon-arrow-right8"><use xlink:href="#icon-arrow-right8"></use></svg></a></p>
+		<p class="hide-for-small-only"><a class="dark-gray next text-right" href="{{nexturl}}">{{nexttitle}}</a></p>
+		{% endif %}
+		</div>
+		
+    </div>
 </div>
-
-<div class="column small-2 grid">
-{% if parent %}
-<a href="{{parent.url}}">Grid</a>
 {% endif %}
-</div>
-
-
-<div class="column small-5">
-<a href="{{ current.next.url }}" style="visibility: {% if current.next %}visible{% else %}hidden{% endif %}">Next &rarr;</a>
-</div>
-
-</div>
-

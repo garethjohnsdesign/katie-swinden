@@ -259,7 +259,7 @@ footer .detail {
 }
 
 .footer__bottom {
-	@include breakpoint(large) {
+	@include breakpoint(xlarge) {
    padding: 2rem;
   	}
 	a {

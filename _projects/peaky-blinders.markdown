@@ -1,12 +1,12 @@
 ---
-title: Peaky Blinders
+title: Peaky Blinders Season One
 date: 2013-09-12 00:00:00 Z
 medium: television
 img: "/uploads/peaky-blinders.jpg"
 span: April 2012 – April 2013
 company: Mandabach Productions / Tiger Aspect for BBC2
 runtime: 6 x 60 min. episodes
-awards: 
+awards: Won RTS Drama Series, BAFTA Best Director, RTS Judges Award
 writer: Steven Knight, David Leland, Steven Russell, Toby Finlay
 director: Otto Bathurst, Tom Harper
 with: Cillian Murphy, Sam Neill, Helen McCrory, Paul Anderson, Annabelle Wallis, Joe
