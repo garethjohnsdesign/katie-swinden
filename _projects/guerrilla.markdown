@@ -2,8 +2,8 @@
 title: Guerrilla
 date: 2017-01-01 00:00:00 Z
 medium: television
-image:
-span:
+image: 
+span: 
 company: Fifty Fathoms and ABC Signature for Sky Atlantic and Showtime
 runtime: 6 x 60 min. episodes
 awards: 
