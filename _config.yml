@@ -4,13 +4,13 @@ timezone: UTC
 collections:
   posts:
     title: Posts
-    output: true
+    output: false
   projects:
     title: Projects
     output: true
   uploads:
     title: Uploads
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''
@@ -40,7 +40,20 @@ defaults:
     is-carousel: 
     carousel-text: 
 url: http://katieswinden.com
+description: Creative Director at Fifty Fathoms Productions with a brief to develop and executive produce the labels new commissions
 permalink: pretty
+exclude:
+- Gruntfile.js
+- Gemfile
+- Gemfile.lock
+- package.json
+- README*
+- node_modules
+- ".gitignore"
+- bower_components
+- config.codekit3
+- CHANGELOG.md
+- LICENSE.md
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap
@@ -50,13 +63,8 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-exclude:
-- bower_components
-description: Creative Director at Fifty Fathoms Productions with a brief to develop
-  and executive produce the labels new commissions
-domain: http://katieswinden.com
 company: Katie Swinden
-email: katieswinden@mac.com
+email:
 facebook: 
 instagram: 
 twitter: swindenproduces
