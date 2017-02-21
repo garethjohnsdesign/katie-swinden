@@ -4,7 +4,7 @@ timezone: UTC
 collections:
   posts:
     title: Posts
-    output: false
+    output: true
   projects:
     title: Projects
     output: true
@@ -40,7 +40,8 @@ defaults:
     is-carousel: 
     carousel-text: 
 url: http://katieswinden.com
-description: Creative Director at Fifty Fathoms Productions with a brief to develop and executive produce the labels new commissions
+description: Creative Director at Fifty Fathoms Productions with a brief to develop
+  and executive produce the labels new commissions
 permalink: pretty
 exclude:
 - Gruntfile.js
@@ -64,7 +65,7 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 company: Katie Swinden
-email:
+email: 
 facebook: 
 instagram: 
 twitter: swindenproduces
