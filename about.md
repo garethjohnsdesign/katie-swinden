@@ -10,5 +10,4 @@ layout: about
 [LinkedIn](https://www.linkedin.com/in/katie-swinden-a739591)
 
 ### Contact  
-[hi@katieswinden.com](mailto:katieswinden@mac.com)  
 London, United Kingdom 
