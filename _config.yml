@@ -11,71 +11,51 @@ collections:
   uploads:
     title: Uploads
     output: false
-defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-- scope:
-    path: ''
-    type: projects
-  values:
-    layout: 
-    medium: 
-    image: 
-    span: 
-    company: 
-    runtime: 
-    awards: 
-    writer: 
-    director: 
-    with: 
-    producers: 
-    role: 
-    imdb: 
-    video: 
-    is-in-production: 
-    is-featured: 
-    is-carousel: 
-    carousel-text: 
-url: http://katieswinden.com
-description: Creative Director at Fifty Fathoms Productions with a brief to develop
-  and executive produce the labels new commissions
+url: https://www.katieswinden.com
+description: Creative Director at Fifty Fathoms Productions with a brief to develop and executive produce the labels new commissions
 permalink: pretty
 exclude:
-- Gruntfile.js
-- Gemfile
+- bower.json
 - Gemfile.lock
 - package.json
+- config.codekit3
 - README*
+- LICENSE*
+- CHANGELOG*
 - node_modules
 - ".gitignore"
 - bower_components
-- config.codekit3
-- CHANGELOG.md
-- LICENSE.md
-gems:
+- assets/scss
+plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
+- jekyll/imgix
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
 company: Katie Swinden
-email: 
-facebook: 
-instagram: 
-twitter: swindenproduces
-imdb: nm1939604
-vimeo: user16781203
-linkedin: katie-swinden-a739591
-googleplus: 
-google: UA-61943851-1
-verification: t1RsHHxWPWKafXej3Y_NBdhi0bfSZHiYjr1GvAGZjyA
-logo: "/assets/img/layout/logo.svg"
+email: enquiries@813-studio.com
+google_site_verification: 
+analytics: 
+logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"
 future: true
+social:
+  facebook: 
+  instagram: 
+  twitter: swindenproduces
+  linkedin: 
+  vimeo: user16781203
+  imdb: nm1939604
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
+imgix:
+  source: katie-swinden.imgix.net

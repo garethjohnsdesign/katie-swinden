@@ -1,6 +1,7 @@
 ---
-title: Katie Swinden - Producer
-image: "/assets/img/meta/og-image.png"
-layout: index
+title: Katie Swinden
+position: 0
+image: "/assets/img/og-image.png"
+layout: home
 ---
 

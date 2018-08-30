@@ -1,40 +1,37 @@
-<article class="excerpt">
 <!-- Image -->
 <a href="{{project.url}}">
-<div class="excerpt__image">
+  
+<div class="margin-bottom-2">
 <img src="{{project.image}}" alt="{{project.title}}" />
 </div>
-</a>
 <!-- End Image -->
 
 <!-- Title -->
-{% if project.title %}
-<h2 class="excerpt__title underline-black"><a href="{{ project.url }}">{{ project.title }}</a></h2>
-{% endif %}
+<h2>{{ project.title }}</h2>
 <!-- End Title -->
 
 <!-- Span -->
 {% if project.span %}
-<p class="excerpt__with"><a href="{{ project.url }}">{{ project.span }}</a></p>
+<div>{{ project.span }}</div>
 {% endif %}
 <!-- End Span -->
 
 <!-- Company -->
 {% if project.company %}
-<p class="excerpt__with"><a href="{{ project.url }}">{{ project.company }}</a></p>
+<div>{{ project.company }}</div>
 {% endif %}
 <!-- End Company -->
 
 <!-- Runtime -->
 {% if project.runtime %}
-<p class="excerpt__with show-for-medium"><a href="{{ project.url }}">{{ project.runtime }}</a></p>
+<div>{{ project.runtime }}</div>
 {% endif %}
 <!-- End Runtime -->
 
 <!-- Awards -->
 {% if project.awards %}
-<p class="excerpt__with show-for-medium"><a href="{{ project.url }}">{{ project.awards }}</a></p>
+<div class="margin-top-1">{{ project.awards }}</div>
 {% endif %}
 <!-- End Awards -->
 
-</article>
+</a>
