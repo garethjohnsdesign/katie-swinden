@@ -2,56 +2,59 @@
 layout: default
 ---
 
-<!-- Navigation -->
-{% include navigation.html %}
-<!-- End Navigation -->
-
 <!-- Content -->
-<section class="about__content">
-	<div class="row">
-		<div class="small-11 medium-10 large-8 columns">
-		{{ page.content | markdownify }}
-		</div>
-	</div>
-</section>
+<div class="grid-container">
+  <div class="grid-x margin-bottom-2">
+  	<div class="small-11 medium-10 large-8 cell">
+  	{{ page.content | markdownify }}
+  	</div>
+  </div>
+</div>
 <!-- End Content -->
 
 
-<!-- CV -->
-<section class="about__cv">
-	<div class="row">
-		<div class="small-12 columns">
-		<h3>Projects</h3>
-		</div>
+<!-- CV Title -->
+<div class="grid-container">
+<div class="grid-x margin-bottom-2">
+	<div class="small-12 cell">
+	<h3>Projects</h3>
 	</div>
+</div>
+</div>
+<!-- End CV Title -->
 	
-		{% assign collection = site.projects | group_by: "medium" %}
-	{% for group in collection %}
-		<div class="row">
-		<div class="small-12 columns">
-			
+{% assign collection = site.projects | group_by: "medium" %}
+{% for group in collection %}
+<div class="grid-container">
+<div class="grid-x">
+<div class="small-12 cell">
+	
 
-				{% assign collectionsorted = group.items | sort: 'date' | reverse %}
-				{% for item in collectionsorted %}
-				<div class="row">
-				<div class="small-12 medium-4 large-3 columns">
-				{{item.title}}
-				</div>
-				<div class="small-12 medium-4 large-3 columns">
-			    {{item.company}}
-			    </div>
-			    <div class="small-12 medium-4 large-5 columns">
-			    {{item.producers}}
-			    </div>
-			    <div class="small-12 medium-1 large-1 columns show-for-large">
-			    {{item.date | date: '%Y'}}
-			    </div>
-			    </div>
-			    <hr>
-			    {%endfor%}
+		{% assign collectionsorted = group.items | sort: 'date' | reverse %}
+		{% for item in collectionsorted %}
+		<div class="grid-x">
+  		
+		<div class="small-12 medium-4 large-3 cell">
+		{{item.title}}
+		</div>
+		
+		<div class="small-12 medium-4 large-3 cell">
+	  {{item.company}}
+	  </div>
+	  
+	  <div class="small-12 medium-4 large-5 cell">
+	  {{item.producers}}
+	  </div>
+	  
+    <div class="small-12 medium-1 large-1 cell show-for-large">
+    {{item.date | date: '%Y'}}
+    </div>
+	  
+	  </div>
+	    {%endfor%}
 
-		</div>
-		</div>
-	{%endfor%}
-</section>
+</div>
+</div>
+</div>
+{%endfor%}
 <!-- End CV -->

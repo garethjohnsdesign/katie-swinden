@@ -105,3 +105,19 @@ p a {
 
 // 6. Navigation
 // -------------
+
+.orbit-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-color: $light-gray;
+}
+
+.home .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
