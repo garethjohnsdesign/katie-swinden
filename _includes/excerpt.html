@@ -3,7 +3,8 @@
   <a href="{{project.url}}">
     
   <div class="margin-bottom-2">
-  <img src="{{project.image}}" alt="{{project.title}}" />
+   {% assign image = project.image %}
+   {% include images/excerpt.html %}
   </div>
   <!-- End Image -->
   

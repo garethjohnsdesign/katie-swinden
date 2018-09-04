@@ -4,7 +4,7 @@ layout: default
 
 <!-- Title and Meta -->
 <div class="grid-container">
-  <div class="grid-x">
+  <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
   	<div class="small-12 medium-10 large-10 cell">
   		<h1>{{ page.title }}</h1>
   		{% if page.company %}<div class="margin-bottom-0">{{ page.company }}</div>{% endif %}
@@ -20,18 +20,19 @@ layout: default
 <!-- End Title and Meta -->
 
 <!-- Video or Image -->
-{% if page.video or page.img %}
+{% if page.video or page.image %}
 <div class="grid-container">
   <div class="grid-x grid-padding-y align-center">
-  	<div class="small-12 medium-12 large-12 cell">
+  	<div class="small-12 medium-12 large-12 cell" data-aos="fade-in">
   	
   	{% if page.video %}
   	<div class="responsive-embed widescreen">
     <iframe src="https://player.vimeo.com/video/{{page.video}}?autoplay=0&color=FFFFFF&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
   
-  	{% elsif page.img %}
-  	<img src="{{page.img}}" alt="{{page.title}}" />
+  	{% elsif page.image %}
+      {% assign image = page.image %}
+      {% include images/feature.html %}
   	{% endif %}
   	
   	</div>
@@ -43,9 +44,9 @@ layout: default
 <!-- Content -->
 <div class="grid-container">
   <div class="grid-x">
-  	<div class="small-12 medium-10 large-10 cell">
+  	<div class="small-12 medium-10 large-10 cell" data-aos="fade-in">
   		{{ page.content }}
-  		{% if page.imdb %}<div class="margin-top-2"><a href="{{ page.imdb}}" target="_blank">IMDB</a></div>{% endif %}
+  		{% if page.imdb %}<div class="margin-top-2"><a href="{{ page.imdb}}" class="secondary-color" target="_blank">IMDB</a></div>{% endif %}
   	</div>
   </div>
 </div>

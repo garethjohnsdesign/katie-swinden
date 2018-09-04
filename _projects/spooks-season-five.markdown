@@ -17,7 +17,7 @@ producers: Steven Knight, Caryn Mandabach, Jamie Glazebrook, Greg Brenman, Frith
   Matthew Read, Katie Swinden
 role: Assistant Producer
 imdb: http://www.imdb.com/title/tt2442560/
-video: 74524699
+video:
 layout: project
 is-in-production: 
 is-featured: 'true'

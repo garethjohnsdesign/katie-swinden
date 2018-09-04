@@ -45,7 +45,7 @@ per_page: 12
 date_format: "%b %d, %Y"
 future: true
 social:
-  imdb: https://www.imdb.com/name/nm1939604/
+  IMDB: https://www.imdb.com/name/nm1939604/
   twitter: https://twitter.com/swindenproduces
 compress_html:
   comments:

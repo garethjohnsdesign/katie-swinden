@@ -112,6 +112,7 @@ p a {
 
 .orbit-slide {
   height: 100vh;
+  @include links ($white, $black);
 }
 
 .orbit-slide__image {
