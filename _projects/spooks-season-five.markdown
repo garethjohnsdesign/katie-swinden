@@ -3,7 +3,7 @@ title: Spooks Season Five
 date: 2006-09-17 00:00:00 Z
 medium: television
 image: "/uploads/spooks-season-five.jpg"
-span: Sept 2005 -Sept 2006
+span: Sept 2005 — Sept 2006
 company: Kudos Film & Television
 runtime: 10 x 60 min. episodes
 awards: 

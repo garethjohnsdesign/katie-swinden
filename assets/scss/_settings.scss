@@ -171,8 +171,8 @@ $header-styles: (
 */
 $header-styles: (
   'small': (
-    'h1': ('font-size': 24, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h2': ('font-size': 20, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h1': ('font-size': 32, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h2': ('font-size': 24, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h3': ('font-size': 19, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h4': ('font-size': 18, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h5': ('font-size': 17, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
@@ -180,7 +180,7 @@ $header-styles: (
   ),
   'medium': (
     'h1': ('font-size': 48, 'line-height': 1.2, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
-    'h2': ('font-size': 40, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h2': ('font-size': 40, 'line-height': 1.2, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h3': ('font-size': 31, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h4': ('font-size': 25, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h5': ('font-size': 20, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
@@ -556,8 +556,10 @@ $orbit-bullet-margin-top: 0.8rem;
 $orbit-bullet-margin-bottom: 0.8rem;
 $orbit-caption-background: rgba($black, 0.5);
 $orbit-caption-padding: 1rem;
-$orbit-control-background-hover: rgba($black, 0.5);
-$orbit-control-padding: 1rem;
+// $orbit-control-background-hover: rgba($black, 0.5);
+$orbit-control-background-hover: transparent;
+// $orbit-control-padding: 1rem;
+$orbit-control-padding: 2rem;
 $orbit-control-zindex: 10;
 
 // 27. Pagination
@@ -896,7 +898,8 @@ $grid-margin-gutters: (
 );
 $grid-margin-gutters: (
   small: 64px,
-  medium: 64px
+  medium: 72px,
+  large: 80px
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;

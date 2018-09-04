@@ -45,12 +45,8 @@ per_page: 12
 date_format: "%b %d, %Y"
 future: true
 social:
-  facebook: 
-  instagram: 
-  twitter: swindenproduces
-  linkedin: 
-  vimeo: user16781203
-  imdb: nm1939604
+  imdb: https://www.imdb.com/name/nm1939604/
+  twitter: https://twitter.com/swindenproduces
 compress_html:
   comments:
   - "<!-- "

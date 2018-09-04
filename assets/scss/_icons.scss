@@ -15,9 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-logo {
-	font-size: 14rem; // works because "width" & "height" were set using em units
-  @include breakpoint(small only) {
-  font-size: 12rem;
-  }	
+.icon-arrow-left {
+	font-size: 2rem;
+}
+
+.icon-arrow-right {
+	font-size: 2rem;
 }

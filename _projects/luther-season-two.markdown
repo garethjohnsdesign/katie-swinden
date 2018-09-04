@@ -3,6 +3,7 @@ title: Luther Season Two
 date: 2010-06-14 00:00:00 Z
 medium: television
 image: "/uploads/luther-season-two.jpg"
+feature-image: "/uploads/luther-season-two-feature.jpg"
 span: July 2010 – May 2011
 company: BBC Drama Series and Serials
 runtime: 2 x 120 min. episodes

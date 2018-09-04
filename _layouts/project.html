@@ -3,44 +3,50 @@ layout: default
 ---
 
 <!-- Title and Meta -->
-<div class="row project__meta">
-	<div class="small-12 medium-10 large-7 columns">
-		<h1>{{ page.title }}</h1>
-		{% if page.company %}{{ page.company }}<br>{% endif %}
-		{% if page.runtime %}{{ page.runtime }}<br>{% endif %}
-		{% if page.awards %}{{ page.awards }}<br>{% endif %}
-		{% if page.director %}<div class="show-for-medium"><span class="detail">Director(s)</span> {{ page.director }}<br>{% endif %}</div>
-		{% if page.writer %}<div class="show-for-medium"><span class="detail">Writer(s)</span> {{ page.writer }}<br>{% endif %}</div>
-		{% if page.producers %}<div class="show-for-medium"><span class="detail">Producer(s)</span> {{ page.producers }}<br>{% endif %}</div>
-		{% if page.with %}<div class="show-for-medium"><span class="detail">With</span> {{ page.with }}<br>{% endif %}</div>
-		{% if page.imdb %}<a class="detail" href="{{ page.imdb}}" target="_blank">IMDB</a>{% endif %}
-	</div>
+<div class="grid-container">
+  <div class="grid-x">
+  	<div class="small-12 medium-10 large-10 cell">
+  		<h1>{{ page.title }}</h1>
+  		{% if page.company %}<div class="margin-bottom-0">{{ page.company }}</div>{% endif %}
+  		{% if page.runtime %}<div class="margin-bottom-0">{{ page.runtime }}</div>{% endif %}
+  		{% if page.director %}<div class="margin-top-2"><span class="secondary-color">Director(s)</span> {{ page.director }}{% endif %}</div>
+  		{% if page.writer %}<div><span class="secondary-color">Writer(s)</span> {{ page.writer }}{% endif %}</div>
+  		{% if page.producers %}<div><span class="secondary-color">Producer(s)</span> {{ page.producers }}{% endif %}</div>
+  		{% if page.with %}<div><span class="secondary-color">With</span> {{ page.with }}{% endif %}</div>
+  		{% if page.awards %}<div class="margin-top-2">{{ page.awards }}</div>{% endif %}
+  	</div>
+  </div>
 </div>
 <!-- End Title and Meta -->
 
 <!-- Video or Image -->
 {% if page.video or page.img %}
-<div class="row project__hero">
-	<div class="small-12 medium-10 large-8 columns">
-	
-	{% if page.video %}
-	<div class="flex-video widescreen vimeo">
-	<iframe src="https://player.vimeo.com/video/{{page.video}}?autoplay=0&color=FFFFFF&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	</div>
-	
-	{% elsif page.img %}
-	<img src="{{page.img}}" alt="{{page.title}}" />
-	{% endif %}
-	
-	</div>
+<div class="grid-container">
+  <div class="grid-x grid-padding-y align-center">
+  	<div class="small-12 medium-12 large-12 cell">
+  	
+  	{% if page.video %}
+  	<div class="responsive-embed widescreen">
+    <iframe src="https://player.vimeo.com/video/{{page.video}}?autoplay=0&color=FFFFFF&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  
+  	{% elsif page.img %}
+  	<img src="{{page.img}}" alt="{{page.title}}" />
+  	{% endif %}
+  	
+  	</div>
+  </div>
 </div>
 {% endif %}
 <!-- End Video or Image -->
 
 <!-- Content -->
-<div class="row project__content">
-	<div class="small-12 medium-10 large-7 column">
-		{{ page.content }}
-	</div>
+<div class="grid-container">
+  <div class="grid-x">
+  	<div class="small-12 medium-10 large-10 cell">
+  		{{ page.content }}
+  		{% if page.imdb %}<div class="margin-top-2"><a href="{{ page.imdb}}" target="_blank">IMDB</a></div>{% endif %}
+  	</div>
+  </div>
 </div>
 <!-- End Content -->
