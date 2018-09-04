@@ -76,6 +76,13 @@
 		"oAP": "\/_includes\/images\/excerpt.html",
 		"oF": 0
 		},
+	"\/_includes\/images\/feature.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/images\/feature.html",
+		"oF": 0
+		},
 	"\/_includes\/navigation.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -237,7 +244,7 @@
 		"oAP": "\/_uploads\/luther-season-one.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/luther-season-two-feature.jpg": {
@@ -248,7 +255,7 @@
 		"oAP": "\/_uploads\/luther-season-two-feature.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/luther-season-two.jpg": {
@@ -270,7 +277,7 @@
 		"oAP": "\/_uploads\/marvellous-feature.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/marvellous.jpg": {
@@ -292,7 +299,7 @@
 		"oAP": "\/_uploads\/peaky-blinders-feature.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/peaky-blinders.jpg": {
@@ -314,7 +321,7 @@
 		"oAP": "\/_uploads\/spooks-season-five.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/spooks-season-four.jpg": {
@@ -325,7 +332,7 @@
 		"oAP": "\/_uploads\/spooks-season-four.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/spooks-season-seven.jpg": {
@@ -336,7 +343,7 @@
 		"oAP": "\/_uploads\/spooks-season-seven.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/spooks-season-six.jpg": {
@@ -347,7 +354,7 @@
 		"oAP": "\/_uploads\/spooks-season-six.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/about.md": {

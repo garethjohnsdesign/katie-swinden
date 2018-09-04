@@ -12,12 +12,19 @@ layout: default
     <ul class="orbit-container">
     {% assign orbit = site.projects | sort: 'date' | reverse | where: "is-carousel", "true" %}
     {% for orbit-slide in orbit %}
-      <li class="orbit-slide" style="background-image: url({{orbit-slide.feature-image}})">
-      <div class="grid-x height-100 align-middle">
-        <div class="small-12 cell text-center">
-        <h1 class="white margin-bottom-0">{{orbit-slide.title}}</h1>
+      <li class="orbit-slide">
+      
+        <div class="grid-x height-100 align-middle">
+          <div class="small-12 cell text-center">
+          <h1 class="white margin-bottom-0">{{orbit-slide.title}}</h1>
+          </div>
         </div>
-      </div>
+        
+        <div class="orbit-slide__image">
+        {% assign image = orbit-slide.feature-image %}
+        {% include images/feature.html %}
+        </div>
+  
       </li>
     {% endfor %}
     </ul>
