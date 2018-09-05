@@ -230,12 +230,6 @@
 		"oAP": "\/_projects\/spooks-season-six.markdown",
 		"oF": 0
 		},
-	"\/_site": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/_site",
-		"oF": 0
-		},
 	"\/_uploads\/guerilla-feature.jpg": {
 		"ft": 16384,
 		"iS": 918699,
@@ -271,7 +265,7 @@
 		},
 	"\/_uploads\/luther-season-two-feature.jpg": {
 		"ft": 16384,
-		"iS": 686276,
+		"iS": 1598238,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/luther-season-two-feature.jpg",
@@ -293,7 +287,7 @@
 		},
 	"\/_uploads\/marvellous-feature.jpg": {
 		"ft": 16384,
-		"iS": 432418,
+		"iS": 1059482,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/marvellous-feature.jpg",
@@ -326,7 +320,7 @@
 		},
 	"\/_uploads\/peaky-blinders-feature.jpg": {
 		"ft": 16384,
-		"iS": 486603,
+		"iS": 1306311,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/peaky-blinders-feature.jpg",
@@ -609,7 +603,7 @@
 		},
 	"\/assets\/img\/og-image.png": {
 		"ft": 32768,
-		"iS": 14790,
+		"iS": 25750,
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
