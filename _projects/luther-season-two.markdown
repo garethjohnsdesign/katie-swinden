@@ -14,12 +14,11 @@ with: Idris Elba, Ruth Wilson, Warren Brown, Aimee-Ffion Edwards, Kirsten Warein
 producers: Phillippa Giles, Katie Swinden, Idris Elba
 role: Producer
 imdb: http://www.imdb.com/title/tt1474684/
-video: 61619539
-layout: project
-is-in-production: 
-is-featured: 'true'
-is-carousel: 'true'
+video: 288215397
+is-featured: true
+is-carousel: true
 carousel-text: Luther
+layout: project
 ---
 
 LUTHER is a dark psychological crime drama in which John Luther (Idris Elba), is a man struggling with his own terrible demons, might just be as dangerous as the depraved murderers he hunts. In this second season, John Luther, devastated by the brutal murder of his wife returns to policing in a different world and psychopaths on a bigger scale.
