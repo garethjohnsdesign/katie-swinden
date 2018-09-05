@@ -15,11 +15,11 @@ with: Idris Elba, Ruth Wilson, Warren Brown, Aimee-Ffion Edwards, Kirsten Warein
 producers: Phillippa Giles, Katie Swinden, Idris Elba
 role: Producer
 imdb: http://www.imdb.com/title/tt1474684/
-video: 61619539
+video: 288215397
 layout: project
 is-in-production: 
 is-featured: 'true'
-is-carousel: 'true'
+is-carousel:
 carousel-text: Luther
 ---
 

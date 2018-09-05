@@ -3,7 +3,7 @@ title: Peaky Blinders Season One
 date: 2013-09-12 00:00:00 Z
 medium: television
 image: "/uploads/peaky-blinders.jpg"
-feature-image: "/uploads/peaky-blinders-feature.jpg"
+feature-image: "/uploads/peaky-blinders-feature-rev.jpg"
 span: April 2012 – April 2013
 company: Mandabach Productions / Tiger Aspect for BBC2
 runtime: 6 x 60 min. episodes
@@ -16,7 +16,7 @@ producers: Steven Knight, Caryn Mandabach, Jamie Glazebrook, Greg Brenman, Frith
   Matthew Read, Katie Swinden
 role: Producer
 imdb: http://www.imdb.com/title/tt2442560/
-video: 74524699
+video: 288214887
 layout: project
 is-in-production: 
 is-featured: 'true'

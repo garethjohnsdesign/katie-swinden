@@ -1657,7 +1657,7 @@ textarea {
 .grid-container {
   padding-right: 2rem;
   padding-left: 2rem;
-  max-width: 64rem;
+  max-width: 75rem;
   margin: 0 auto; }
   @media print, screen and (min-width: 40em) {
     .grid-container {
@@ -3469,7 +3469,7 @@ a {
 
 hr {
   clear: both;
-  max-width: 64rem;
+  max-width: 75rem;
   height: 0;
   margin: 1.25rem auto;
   border-top: 0;
