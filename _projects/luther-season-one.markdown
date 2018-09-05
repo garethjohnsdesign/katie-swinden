@@ -13,10 +13,9 @@ with: Idris Elba, Ruth Wilson, Warren Brown, Indira Varma, Paul McGann, Steven M
 producers: Phillippa Giles, Katie Swinden, Idris Elba
 role: Producer
 imdb: http://www.imdb.com/title/tt1474684/
-video: 61914262
+video: 288215726
+is-featured: true
 layout: project
-is-in-production: 
-is-featured: 'true'
 ---
 
 LUTHER is a dark psychological crime drama in which John Luther (Idris Elba), is a man struggling with his own terrible demons, might just be as dangerous as the depraved murderers he hunts. His only confidante, and perhaps his worst enemy, is a multiple-murderess whom he failed to see convicted for the slaughter of her own family.
