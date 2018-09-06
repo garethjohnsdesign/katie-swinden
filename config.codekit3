@@ -278,7 +278,7 @@
 		},
 	"\/_uploads\/luther-season-two-feature.jpg": {
 		"ft": 16384,
-		"iS": 1598238,
+		"iS": 686276,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/luther-season-two-feature.jpg",
@@ -300,7 +300,7 @@
 		},
 	"\/_uploads\/marvellous-feature.jpg": {
 		"ft": 16384,
-		"iS": 1059482,
+		"iS": 432418,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/marvellous-feature.jpg",
@@ -331,9 +331,20 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/peaky-blinders-feature-rev2.jpg": {
+		"ft": 16384,
+		"iS": 1763594,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/peaky-blinders-feature-rev2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/peaky-blinders-feature.jpg": {
 		"ft": 16384,
-		"iS": 1306311,
+		"iS": 486603,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/peaky-blinders-feature.jpg",
@@ -616,7 +627,7 @@
 		},
 	"\/assets\/img\/og-image.png": {
 		"ft": 32768,
-		"iS": 25750,
+		"iS": 14790,
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
