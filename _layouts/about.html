@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<!-- CV Title -->
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y">
+  	<div class="small-12 cell">
+  	  <h3>Projects</h3>
+  	</div>
+  </div>
+</div>
+<!-- End CV Title -->
+	
+{% assign collection = site.projects | group_by: "medium" %}
+{% for group in collection %}
+<div class="grid-container">
+  <div class="grid-x grid-padding-x padding-bottom-1">
+    <div class="small-12 cell">
+    	
+    
+    		{% assign collectionsorted = group.items | sort: 'date' | reverse %}
+    		{% for item in collectionsorted %}
+    		<div class="grid-x grid-padding-x padding-bottom-2">
+      		
+    		<div class="small-12 medium-4 large-3 cell">
+    		<h5 class="primary-font secondary-color">{{item.title}}</h5>
+    		</div>
+    		
+    		<div class="small-12 medium-4 large-3 cell">
+    	  {{item.company}}
+    	  </div>
+    	  
+    	  <div class="small-12 medium-4 large-5 cell">
+    	  {{item.producers}}
+    	  </div>
+    	  
+        <div class="small-12 medium-1 large-1 cell show-for-large">
+        {{item.date | date: '%Y'}}
+        </div>
+    	  
+    	  </div>
+    	 {%endfor%}
+    
+    </div>
+  </div>
+</div>
+{%endfor%}
+<!-- End CV -->
+
+<!-- Content -->
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y">
+  	<div class="small-11 medium-10 large-8 cell">
+  	  <h3>Follow</h3>
+  	  
+
+        {% for item in site.social %}  
+          <h5><a href="{{ item[1] }}" class="primary-font secondary-color text-capitalize" target="_blank" rel="noopener">{{ item[0] }}</a></h5>
+        {% endfor %} 
+
+    
+  	</div>
+  </div>
+</div>
+<!-- End Content -->

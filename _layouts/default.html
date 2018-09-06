@@ -1,0 +1,28 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
+
+<body class="{{page.layout | slugify}}">
+  
+<!-- Navigation -->
+{% include navigation.html %}
+<!-- End Navigation -->
+
+<!-- Content -->
+{{ content }}
+<!-- End Content -->
+
+<!-- Footer -->
+{% include footer.html %}
+<!-- End Footer -->
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!-- Image -->
+<div class="excerpt">
+  <a href="{{project.url}}">
+    
+  <div class="margin-bottom-2">
+   {% assign image = project.image %}
+   {% include images/excerpt.html %}
+  </div>
+  <!-- End Image -->
+  
+  <!-- Title -->
+  <h2>{{ project.title }}</h2>
+  <!-- End Title -->
+  
+  <!-- Span -->
+  {% if project.span %}
+  <div>{{ project.span }}</div>
+  {% endif %}
+  <!-- End Span -->
+  
+  <!-- Company -->
+  {% if project.company %}
+  <div>{{ project.company }}</div>
+  {% endif %}
+  <!-- End Company -->
+  
+  <!-- Runtime -->
+  {% if project.runtime %}
+  <div>{{ project.runtime }}</div>
+  {% endif %}
+  <!-- End Runtime -->
+  
+  <!-- Awards -->
+  {% if project.awards %}
+  <div class="margin-top-1">{{ project.awards }}</div>
+  {% endif %}
+  <!-- End Awards -->
+  </a>
+</div>
