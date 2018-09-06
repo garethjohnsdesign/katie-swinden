@@ -17,7 +17,7 @@ imdb: http://www.imdb.com/title/tt0160904/
 video: 
 layout: project
 is-in-production: 
-is-featured:
+is-featured: 
 ---
 
 Spooks’ secret agents are back on superb form in this enthralling fourth season. It’s a drama that’s packed with twists and turns, clever characterisation, conspiracies and a generous dollop of intrigue. The Spooks of the title are counter-terrorism spies, living in a constant world of danger, and some of the edgy plotlines of this and the seasons that preceded it are testament to that.
