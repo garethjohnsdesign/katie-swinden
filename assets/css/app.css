@@ -5452,3 +5452,35 @@ h1 a {
   color: #212222; }
   .excerpt a:hover {
     color: #8a8a8a; }
+
+.a-fade {
+  transition: .4s;
+  opacity: 1; }
+
+html.is-animating .a-fade {
+  opacity: 0; }
+
+.loading {
+  display: none; }
+
+html.is-changing .loading {
+  display: block; }
+
+/**
+ * Fade animations:
+ * fade
+ * fade-up, fade-down, fade-left, fade-right
+ * fade-up-right, fade-up-left, fade-down-right, fade-down-left
+ */
+[data-aos^='fade'][data-aos^='fade'] {
+  opacity: 0;
+  transition-property: opacity, transform; }
+  [data-aos^='fade'][data-aos^='fade'].aos-animate {
+    opacity: 1;
+    transform: translate(0, 0); }
+
+[data-aos='fade-up'] {
+  transform: translate(0, 2rem); }
+
+[data-aos='fade-down'] {
+  transform: translate(0, -2rem); }

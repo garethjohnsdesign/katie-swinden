@@ -159,3 +159,50 @@ h1 {
 .excerpt {
   @include links ($black, $dark-gray);
 }
+
+.a-fade {
+    transition: .4s;
+    opacity: 1;
+}
+html.is-animating .a-fade{
+    opacity: 0;
+}
+
+.loading {
+    display: none;
+}
+html.is-changing .loading{
+    display: block;
+}
+
+
+// Animations variables
+$aos-distance: 2rem !default;
+
+
+
+
+/**
+ * Fade animations:
+ * fade
+ * fade-up, fade-down, fade-left, fade-right
+ * fade-up-right, fade-up-left, fade-down-right, fade-down-left
+ */
+
+[data-aos^='fade'][data-aos^='fade'] {
+  opacity: 0;
+  transition-property: opacity, transform;
+
+  &.aos-animate {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+[data-aos='fade-up'] {
+  transform: translate(0, 2rem);
+}
+
+[data-aos='fade-down'] {
+  transform: translate(0, -$aos-distance);
+}

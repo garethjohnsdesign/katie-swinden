@@ -696,6 +696,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/swup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/swup-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/scss\/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,

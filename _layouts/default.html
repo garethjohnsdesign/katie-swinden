@@ -10,11 +10,14 @@ layout: compress
 <!-- End Head -->
 
 <body class="{{page.layout | slugify}}">
-  
+      
 <!-- Navigation -->
 {% include navigation.html %}
 <!-- End Navigation -->
 
+<main id="swup">
+    <div class="a-fade">
+  
 <!-- Content -->
 {{ content }}
 <!-- End Content -->
@@ -22,6 +25,11 @@ layout: compress
 <!-- Footer -->
 {% include footer.html %}
 <!-- End Footer -->
+
+  </div>
+</main>
+
+<div class="loading">We are loading...</div>
 
 </body>
 

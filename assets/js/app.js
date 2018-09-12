@@ -1,7 +1,11 @@
-$(document).on('turbolinks:load', function() {
-
 // 1. Foundation
 // --------------------
+
+var swup = new Swup()
+
+$(document).foundation();
+
+document.addEventListener('swup:contentReplaced', function () {
 
 $(document).foundation();
 
@@ -19,6 +23,5 @@ $(function() {
 $(function() {
 window.addEventListener('load', AOS.refresh);
 });
-
 
 });
